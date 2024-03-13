@@ -2,15 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 
-export const StyledContainer = styled.div`
+export const Container = styled.div`
     max-width: 1200px;
     width: 100%;
-
-    padding: 0 114px;
+    min-height: 100%;
     margin: 0 auto;
-
     position: relative;
-    box-sizing: content-box;
-    
-    
+    outline: 1px solid red;
 `

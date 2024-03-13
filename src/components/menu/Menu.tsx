@@ -19,9 +19,12 @@ export const Menu =(props: {menuItems: Array<string>})=>{
 };
 
 const StyledMenu = styled.nav`
-ul {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
+
+    ul {
+        display: flex;
+        gap: 30px;
 }
+`
+const ListItem = styled.li`
+    
 `
