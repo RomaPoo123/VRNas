@@ -5,24 +5,24 @@ import { theme } from "../../../styles/Theme";
 
 type PanelPropsType = {
     width?: string
-    hight?: string
+    height?: string
     IconId: string
-    text?: string
+    title: string
+    text: string
+    viewBox: string
 }
 
 export const Panel = (props: PanelPropsType)=>{
     return (
-        <StyledPanel width={props.width} hight={props.hight} IconId={props.IconId}>
-            <Icon iconId={props.IconId} width={"70px"} height={"70px"} viewBox={"0 0 70 70"}/>
-            <PanelTitle>Expertise</PanelTitle>
+        <StyledPanel>
+            <Icon iconId={props.IconId} width={props.width} height={props.height} viewBox={props.viewBox}/>
+            <PanelTitle>{props.title}</PanelTitle>
             <PanelText>{props.text}</PanelText>
         </StyledPanel>
     )
 };
 
-const StyledPanel = styled.div<PanelPropsType>`
-    width: ${props =>props.width || "auto"};
-    height: ${props =>props.hight || "auto"};
+const StyledPanel = styled.div`
     background-color: ${theme.colors.panelColor} ;
     padding: 42px 50px 53px 64px;
 `

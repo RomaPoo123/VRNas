@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     
     body {
         width: 100%;
-        background-color: black;
+        background-color: rgb(24, 24, 27);
         margin: 0;
         font-family: "Chakra Petch", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
