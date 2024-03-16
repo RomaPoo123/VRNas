@@ -27,7 +27,7 @@ const StyledPanel = styled.div`
     padding: 42px 50px 53px 64px;
 `
 
-const PanelTitle = styled.h3`
+export const PanelTitle = styled.h3`
     color: ${theme.colors.font};
     font-size: 20px;
     font-weight: 400;

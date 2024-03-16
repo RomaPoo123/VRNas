@@ -5,7 +5,7 @@ import { FlexWrapper } from "../../../components/FlexWrapper";
 import { Button } from "../../../components/Button";
 import MainImage from "../../../assets/image/MainImage.png"
 import { theme } from "../../../styles/Theme";
-import { WhyChooseUs } from "../../../components/PanelContainer/WhyChooseUs";
+import { WhyChooseUs } from "../../../components/blockPanels/BlockPanels";
 import { SectionText } from "../../../components/SectionText.styled";
 
 export const Main = ()=> {

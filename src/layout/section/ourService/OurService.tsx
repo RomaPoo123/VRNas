@@ -4,8 +4,8 @@ import { TitleSection } from "../../../components/TitleSection";
 import { Container } from "../../../components/Container.styled";
 import { FlexWrapper } from "../../../components/FlexWrapper";
 import { SectionText } from "../../../components/SectionText.styled";
-import { Panel } from "../../../components/PanelContainer/panel/Panel";
-
+import { Panel } from "../../../components/blockPanels/panel/Panel";
+import { theme } from "../../../styles/Theme";
 
 
 export const OurService = ()=> {
@@ -75,6 +75,10 @@ const StyledOurService = styled.section`
             padding: 38px 56px 51px 32px ;
             width: 375px;
             height: 290px;
+
+            border: 1px solid transparent;
+        border-image: ${theme.colors.panelBorder};
+        border-image-slice: 1;
         }
         
         div:nth-child(2) {

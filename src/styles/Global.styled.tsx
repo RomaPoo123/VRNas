@@ -32,7 +32,23 @@ button {
     background-color: unset;
     border: none;
 }
+h1 {
 
+}
 
+h2 {
+    
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+h4 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
 
 `
